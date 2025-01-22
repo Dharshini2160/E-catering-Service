@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>contact us</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<style>
+
+*{
+   font-family: 'Rubik', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition: .2s linear;
+}
+.heading{
+   background-color: var(--black);
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;;
+   flex-flow: column;
+   min-height: 22rem;
+}
+
+.heading h3{
+   font-size: 4rem;
+   color:var(--white);
+   text-transform: capitalize;
+}
+
+.heading p a{
+   font-size: 2rem;
+   color:var(--yellow);
+}
+
+.heading p span{
+   font-size: 2rem;
+   color:var(--light-color);
+}
+
+.heading p a:hover{
+   color:var(--white);
+}
+
+.header{
+   position: sticky;
+   top:0; left:0; right: 0;
+   z-index: 1000;
+   border-bottom: var(--border);
+   background-color: var(--white);
+}
+
+.header .flex{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+   
+}
+
+.header .flex .logo{
+   font-size: 2.5rem;
+   color:var(--black);
+}
+
+.header .flex .navbar a{
+   margin:0 1rem;
+   font-size: 2rem;
+   color:var(--black);
+}
+
+.header .flex .navbar a:hover{
+   color:var(--yellow);
+}
+
+.header .flex .icons > *{
+   font-size: 2.5rem;
+   color:var(--black);
+   margin-left: 1.5rem;
+   cursor: pointer;
+}
+
+.header .flex .icons > *:hover{
+   color:var(--yellow);
+}
+.banner-img {
+  margin: 20px 115px;
+ 
+  width: 80%;
+}
+
+.banner-img img {
+  width: 100%;
+  margin-bottom: -80px;
+}
+.banner {
+  position: relative;
+}
+
+.banner-title {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+
+.banner-title h1 {
+  font-size: 70px;
+  background: none(0, 0, 0, 0.75);
+  color: black;
+  line-height: 120px;
+  padding: 0 20px 0 20px;
+  text-transform: uppercase;
+}
+
+.menu {
+    width: 320px;
+}
+
+.menu h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.menu ul {
+    padding: 2rem 0;
+}
+
+.menu ul li {
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: skyblue;
+    color: white;
+    border-radius: 50px;
+}
+</style>
+   
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">yum-yum 😋</a>
+
+      <nav class="navbar">
+         <a href="home.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="category.html">Category</a>
+         <a href="orders.html">Orders</a>
+         <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">signin</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">profile</a>
+            <a href="#" class="delete-btn">logout</a>
+         </div>
+         <p class="account"><a href="login.html">login</a> or <a href="register.html">register</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<div class="heading">
+   <h3>Category</h3>
+   <p><a href="home.html">home </a> <span> / category</span></p>
+</div>
+<header class="category">
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="content">
+            <div class="banner-title">
+            <div class="swiper-pagination"></div>
+
+  
+   <div class="container food-container">
+
+        <section class="food">
+            <div class="menu">
+                <p class="text-gray">WELCOME WITH</p>
+                <h1>Popular <span class="highlight">Foods</span></h1>
+                <p class="text-white">FOR</p>
+                <ul>
+                    <li><a href="breakfast.html">Breakfast</a></li>
+                    <li> <a href="lunch.html">lunch</a></li>
+                    <li><a href="dinner.html">Dinner</a></li>
+             
+                </ul>
+            </div>
+      </section>
+
+   </div>
+
+             
+            </div>
+            <div class="image">
+                  <img src="images/cat.jpeg" alt="error">
+            </div>
+
+         </div>
+
+         
+
+      </div>
+
+      
+</section>
+</header>

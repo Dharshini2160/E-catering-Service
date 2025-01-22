@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>about us</title>
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+<header class="header">
+<section class="flex">
+      <a href="home.html" class="logo">Kiki 😋</a>
+      <nav class="navbar">
+         <a href="home.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="category.html">Category</a>
+         <a href="orders.html">Orders</a>
+         <a href="contact.html">Contact</a>
+      </nav>
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+      <div class="profile">
+         <p class="name">signin</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">profile</a>
+            <a href="#" class="delete-btn">logout</a>
+         </div>
+         <p class="account"><a href="login.html">login</a> or <a href="register.html">register</a></p>
+      </div>
+   </section>
+</header>
+<section class="about">
+   <div class="row">
+      <div class="image">
+         <img src="images/chef1.png" alt="">
+      </div>
+      <div class="content">
+         <h3>why choose us?</h3>
+         <p>An e-catering website is a platform where users can order food online for events, parties, or gatherings. These websites typically offer a variety of cuisines and dishes from local restaurants or catering services, allowing customers to browse menus, place orders, and arrange delivery or pickup for their events. They provide convenience and flexibility for event planners and hosts, making it easier to organize food options for different occasions</p>
+         <a href="category.html" class="btn">category</a>
+      </div>
+   </div>
+</section>
+</footer>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+var swiper = new Swiper(".reviews-slider", {
+   loop:true,
+   grabCursor:true,
+            spaceBetween: 20,
+   pagination: {
+      el: ".swiper-pagination",
+   },
+   breakpoints: {
+      550: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+   },
+});
+
+</script>
+</body>
+</html>
